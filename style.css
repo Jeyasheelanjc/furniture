@@ -1,0 +1,145 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap");
+
+main {
+    font-family: "Inter", sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar {
+    font-family: "Inter", sans-serif;
+    background-color: #3b5d50;
+    color: #fff;
+}
+
+.nav-item a {
+    color: rgba(218, 210, 210, 0.902) !important;
+    font-size: 16px;
+}
+
+.nav-item a:hover {
+    color: #ffffff !important;
+}
+
+.nav-link li {
+    display: inline-block;
+}
+
+.nav-link:after {
+    content: "";
+    display: block;
+    margin: auto;
+    height: 4px;
+    width: 0%;
+    background-color: transparent;
+    transition: all 0.5s ease;
+}
+
+.nav-link:hover:after {
+    background-color: yellow;
+    width: 100%
+}
+
+.btn-1 {
+    border: 1px solid black !important;
+    border-radius: 20px !important;
+}
+
+.hero {
+    padding: 56px 0 !important;
+}
+
+.hero-img-wrap{
+    position: relative;
+}
+
+.box-1 {
+    right:100px;
+    margin-top: 25px;
+    position: absolute;
+}
+.card i{
+    display: none;
+    transition: all 0.5s ease-out;
+}
+.card:hover i{
+    display: block;
+}
+.box-2{
+    position: absolute;
+    margin-top:  -75px;
+}
+.box-3{
+    position: relative;
+    width: 450px;
+    margin-left: 80px;
+}
+.box-3 img{
+    border-radius: 30px;
+
+}
+.box-4{
+    position: absolute;
+}
+.box-5{
+    position: relative;
+    left: 40px;
+    top: 75px;
+}
+.box-5 img{
+    border-radius: 30px;
+    width: 400px;
+}
+.box-6{
+    position: absolute;
+    left: 370px;
+    margin-top: -200px;
+}
+.box-6 img{
+    border-radius: 30px;
+    width: 300px;
+}
+.box-7 img{
+    border-radius: 30px;
+    width: 200px;
+}
+.box-7{
+    margin-left:90px;
+    margin-top: -575px;
+}
+.cardnew{
+    padding: 240px 0px 50px;
+}
+.chair{
+    padding: 10px;
+  
+}
+.blog span{
+    color: grey !important;
+}
+.blog p{
+    font-size: 14px !important;
+    line-height: 2;
+}
+.blogtop{
+    padding: 50px 0 170px;
+}
+footer i{
+    background-color:#dce5e4;
+    padding: 8px;
+    border-radius: 20px;
+    border: 1px solid grey;
+}
+footer i:hover{
+    background-color: #3b5d50;
+    color: #fff !important;
+  
+}
+.person img{
+    width: 100px;
+    border-radius: 50px;
+}
